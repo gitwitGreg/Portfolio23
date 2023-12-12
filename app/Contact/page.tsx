@@ -1,14 +1,9 @@
 'use client'
 import { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import HandshakeIcon from '@mui/icons-material/Handshake';
 import EmailIcon from '@mui/icons-material/Email';
 import { Button } from '@nextui-org/react';
-import { toast } from '@/components/ui/use-toast';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion'
 
 const Page = () => {
     const [isSuccess, setIsSuccess] = useState(false);
