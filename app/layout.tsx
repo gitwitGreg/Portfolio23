@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import StarsCanvas from './Components/StarBackground'
-import { BrowserRouter } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 
 const inter = Inter({ subsets: ['latin'] })
